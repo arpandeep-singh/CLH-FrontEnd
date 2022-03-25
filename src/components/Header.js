@@ -4,24 +4,24 @@ class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div class="header-section">
+        <div className="header-section">
           {/* <!-- Header Top Start --> */}
-          <div class="header-top d-none d-lg-block">
-            <div class="container">
+          <div className="header-top d-none d-lg-block">
+            <div className="container">
               {/* <!-- Header Top Wrapper Start --> */}
-              <div class="header-top-wrapper" />
+              <div className="header-top-wrapper" />
               {/* <!-- Header Top Wrapper End --> */}
             </div>
           </div>
           {/* <!-- Header Top End --> */}
 
           {/* <!-- Header Main Start --> */}
-          <div class="header-main">
-            <div class="container">
+          <div className="header-main">
+            <div className="container">
               {/* <!-- Header Main Start --> */}
-              <div class="header-main-wrapper">
+              <div className="header-main-wrapper">
                 {/* <!-- Header Logo Start --> */}
-                <div class="header-logo">
+                <div className="header-logo">
                   <a href="index.html">
                     {/* <img src="assets/images/logo.png" alt="Logo" /> */}
                   </a>
@@ -29,14 +29,14 @@ class Header extends React.Component {
                 {/* <!-- Header Logo End --> */}
 
                 {/* <!-- Header Menu Start --> */}
-                <div class="header-menu d-none d-lg-block">
-                  <ul class="nav-menu">
+                <div className="header-menu d-none d-lg-block">
+                  <ul className="nav-menu">
                     <li>
                       <Link to="/">Home</Link>
                     </li>
                     <li>
                       <a href="/#">All Course</a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="courses.html">Courses</a>
                         </li>
@@ -45,9 +45,9 @@ class Header extends React.Component {
                         </li>
                       </ul>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="/#">Pages </a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="about.html">About</a>
                         </li>
@@ -94,7 +94,7 @@ class Header extends React.Component {
                           <a href="messages.html">Messages</a>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
 
                     <li>
                       <a href="contact.html">Contact</a>
@@ -104,15 +104,15 @@ class Header extends React.Component {
                 {/* <!-- Header Menu End --> */}
 
                 {/* <!-- Header Sing In & Up Start --> */}
-                <div class="header-sign-in-up d-none d-lg-block">
+                <div className="header-sign-in-up d-none d-lg-block">
                   <ul>
                     <li>
-                      <Link class="sign-in" to="/login">
-                        Sign In
+                      <Link className="sign-in" to="/login">
+                        Log In
                       </Link>
                     </li>
                     <li>
-                      <Link class="sign-up" to="/register">
+                      <Link className="sign-up" to="/register">
                         Sign Up
                       </Link>
                     </li>
@@ -121,8 +121,8 @@ class Header extends React.Component {
                 {/* <!-- Header Sing In & Up End --> */}
 
                 {/* <!-- Header Mobile Toggle Start --> */}
-                <div class="header-toggle d-lg-none">
-                  <a class="menu-toggle" href="javascript:void(0)">
+                <div className="header-toggle d-lg-none">
+                  <a className="menu-toggle" href="javascript:void(0)">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -135,36 +135,36 @@ class Header extends React.Component {
           </div>
           {/* <!-- Header Main End --> */}
         </div>
-        <div class="mobile-menu">
+        <div className="mobile-menu">
           {/* !-- Menu Close Start --> */}
-          <a class="menu-close" href="javascript:void(0)">
-            <i class="icofont-close-line"></i>
+          <a className="menu-close" href="javascript:void(0)">
+            <i className="icofont-close-line"></i>
           </a>
           {/* !-- Menu Close End --> */}
 
           {/* !-- Mobile Top Medal Start --> */}
-          <div class="mobile-top">
+          <div className="mobile-top">
             <p>
-              <i class="flaticon-phone-call"></i>{" "}
+              <i className="flaticon-phone-call"></i>{" "}
               <a href="tel:9702621413">(970) 262-1413</a>
             </p>
             <p>
-              <i class="flaticon-email"></i>{" "}
+              <i className="flaticon-email"></i>{" "}
               <a href="mailto:address@gmail.com">address@gmail.com</a>
             </p>
           </div>
           {/* !-- Mobile Top Medal End --> */}
 
           {/* !-- Mobile Sing In & Up Start --> */}
-          <div class="mobile-sign-in-up">
+          <div className="mobile-sign-in-up">
             <ul>
               <li>
-                <a class="sign-in" href="login.html">
+                <a className="sign-in" href="login.html">
                   Sign In
                 </a>
               </li>
               <li>
-                <a class="sign-up" href="register.html">
+                <a className="sign-up" href="register.html">
                   Sign Up
                 </a>
               </li>
@@ -173,14 +173,14 @@ class Header extends React.Component {
           {/* !-- Mobile Sing In & Up End --> */}
 
           {/* !-- Mobile Menu Start --> */}
-          <div class="mobile-menu-items">
-            <ul class="nav-menu">
+          <div className="mobile-menu-items">
+            <ul className="nav-menu">
               <li>
                 <a href="index.html">Home</a>
               </li>
               <li>
                 <a href="/#">All Course</a>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
                     <a href="courses.html">Courses</a>
                   </li>
@@ -191,7 +191,7 @@ class Header extends React.Component {
               </li>
               <li>
                 <a href="/#">Pages </a>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
                     <a href="about.html">About</a>
                   </li>
@@ -239,10 +239,10 @@ class Header extends React.Component {
               </li>
               <li>
                 <a href="/#">Blog</a>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
                     <a href="/#">Blog</a>
-                    <ul class="sub-menu">
+                    <ul className="sub-menu">
                       <li>
                         <a href="blog-grid.html">Blog</a>
                       </li>
@@ -256,7 +256,7 @@ class Header extends React.Component {
                   </li>
                   <li>
                     <a href="/#">Blog Details</a>
-                    <ul class="sub-menu">
+                    <ul className="sub-menu">
                       <li>
                         <a href="blog-details-left-sidebar.html">
                           Blog Details Left Sidebar
@@ -279,26 +279,26 @@ class Header extends React.Component {
           {/* !-- Mobile Menu End --> */}
 
           {/* !-- Mobile Menu End --> */}
-          <div class="mobile-social">
-            <ul class="social">
+          <div className="mobile-social">
+            <ul className="social">
               <li>
                 <a href="/#">
-                  <i class="flaticon-facebook"></i>
+                  <i className="flaticon-facebook"></i>
                 </a>
               </li>
               <li>
                 <a href="/#">
-                  <i class="flaticon-twitter"></i>
+                  <i className="flaticon-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="/#">
-                  <i class="flaticon-skype"></i>
+                  <i className="flaticon-skype"></i>
                 </a>
               </li>
               <li>
                 <a href="/#">
-                  <i class="flaticon-instagram"></i>
+                  <i className="flaticon-instagram"></i>
                 </a>
               </li>
             </ul>
